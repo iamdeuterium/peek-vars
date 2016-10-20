@@ -21,7 +21,7 @@ Or install it yourself as:
 Add the following to your `config/initializers/peek.rb`:
 
 ```ruby
-Peek.into Peek::Views::Vars
+Peek.into Peek::Views::Vars var1: 123, var2: -> { Time.current }
 ```
 
 ## Contributing
