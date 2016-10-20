@@ -1,0 +1,10 @@
+<% view.vars.each do |k, v| %>
+  <div class="bucket">
+    <span class="css-truncate expandable">
+      <span class="css-truncate-target">
+        <strong><%= k %></strong>: <%= v %>
+      </span>
+    </span>
+  </div>
+<% end %>
+vars
